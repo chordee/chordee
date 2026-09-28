@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="assets/banner.png" alt="Hsin Hua (Chordee) Lin Banner" width="100%">
+  <img src="assets/banner.webp" alt="Hsin Hua (Chordee) Lin Banner" width="100%">
 </p>
 
 # 🎬 Hsin Hua (Chordee) Lin
@@ -58,30 +58,42 @@ I love building infrastructure that removes friction for artists, so they can fo
 
 ---
 
-## 📊 GitHub Analytics
-
-<p align="left">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=chordee&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chordee&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 ## 🔭 Featured Open Source Projects
 
 ### 🔌 DCC & Rendering Plug-ins
-[![maya-gaussian-splatting-viewport-plugin](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=maya-gaussian-splatting-viewport-plugin&theme=tokyonight)](https://github.com/chordee/maya-gaussian-splatting-viewport-plugin)
-[![nuke-lens-distort-cv](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=nuke-lens-distort-cv&theme=tokyonight)](https://github.com/chordee/nuke-lens-distort-cv)
+- **[maya-gaussian-splatting-viewport-plugin](https://github.com/chordee/maya-gaussian-splatting-viewport-plugin)**  
+  `Maya` · `C++` · `OpenGL` · `Viewport 2.0`  
+  Maya Viewport 2.0 plug-in in C++ and OpenGL for real-time 3D Gaussian Splatting (`.ply`) rendering.
+
+- **[nuke-lens-distort-cv](https://github.com/chordee/nuke-lens-distort-cv)**  
+  `Nuke NDK` · `C++` · `OpenCV`  
+  Nuke NDK plug-in for lens distortion and undistortion using the OpenCV rational polynomial model (k1–k6, p1, p2) with Nerfstudio JSON support.
 
 ### 📐 Procedural, Vision & Tracking
-[![colmap-camera-tracking](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=colmap-camera-tracking&theme=tokyonight)](https://github.com/chordee/colmap-camera-tracking)
-[![gnm-houdini](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=gnm-houdini&theme=tokyonight)](https://github.com/chordee/gnm-houdini)
-[![kimodo-houdini-bridge](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=kimodo-houdini-bridge&theme=tokyonight)](https://github.com/chordee/kimodo-houdini-bridge)
+- **[colmap-camera-tracking](https://github.com/chordee/colmap-camera-tracking)**  
+  `Python` · `COLMAP` · `Houdini` · `NeRF`  
+  Automated camera tracking and 3D reconstruction pipeline using COLMAP, generating Houdini scenes and NeRF-compatible formats (`transforms.json`).
+
+- **[gnm-houdini](https://github.com/chordee/gnm-houdini)**  
+  `Houdini HDA` · `Python` · `Google GNM`  
+  Houdini Digital Asset (HDA) integrating Google's parametric statistical 3D head model (GNM) to generate editable head meshes in SOPs.
+
+- **[kimodo-houdini-bridge](https://github.com/chordee/kimodo-houdini-bridge)**  
+  `Houdini` · `Python` · `NVIDIA Kimodo`  
+  Pipeline bridge connecting NVIDIA's text-driven motion generation model (Kimodo) directly into SideFX Houdini.
 
 ### 🤖 AI Agents & Studio Tooling (MCP)
-[![mcp-server-shotgrid](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=mcp-server-shotgrid&theme=tokyonight)](https://github.com/chordee/mcp-server-shotgrid)
-[![houdini-tools](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=houdini-tools&theme=tokyonight)](https://github.com/chordee/houdini-tools)
-[![mcp-server-openexr](https://github-readme-stats.vercel.app/api/pin/?username=chordee&repo=mcp-server-openexr&theme=tokyonight)](https://github.com/chordee/mcp-server-openexr)
+- **[mcp-server-shotgrid](https://github.com/chordee/mcp-server-shotgrid)**  
+  `FastMCP` · `Python` · `Autodesk ShotGrid`  
+  Model Context Protocol (MCP) server enabling AI coding assistants to interact directly with the Autodesk ShotGrid REST API.
+
+- **[houdini-tools](https://github.com/chordee/houdini-tools)**  
+  `Python` · `CLI` · `MCP` · `OpenUSD`  
+  Lightweight toolkit and MCP server for inspecting `.bgeo.sc` geometry caches and USD scenes without requiring a local Houdini installation.
+
+- **[mcp-server-openexr](https://github.com/chordee/mcp-server-openexr)**  
+  `OpenEXR` · `Python` · `MCP`  
+  MCP server for querying OpenEXR files — metadata, channels, and pixel statistics.
 
 <details>
 <summary>📚 Guides & More Repositories</summary>
