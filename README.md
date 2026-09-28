@@ -18,19 +18,17 @@
 
 ---
 
-## ☕ About Me
+## About
 
-I have been in feature film visual effects and pipeline engineering for **15+ years**. 
+I have **15+ years** of experience in feature-film visual effects and pipeline engineering.
 
-My career started deep in the production trenches — creating high-impact pyro, FLIP fluids, destruction, and procedural simulations in **Houdini**. As productions grew in scale, I transitioned into pipeline architecture: leading studio-wide migrations to **Houdini & Solaris**, designing layer-based **OpenUSD workflows**, and building custom **C++ / Python tools** to connect every department from Maya to Nuke.
-
-I love building infrastructure that removes friction for artists, so they can focus on what matters most — creating compelling images on screen.
+My work spans hands-on **Houdini FX** production and pipeline architecture. I have led phased studio transitions to **Houdini and Solaris**, designed layer-based **OpenUSD workflows**, and developed **C++ and Python tools** supporting production workflows across Maya, Houdini, Solaris, and Nuke.
 
 ---
 
-## 🛠️ Tech Stack & Toolkit
+## Tech Stack
 
-### 💻 Languages & APIs
+### Languages & APIs
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/VEX-SideFX%20Houdini-FF4500?style=flat-square" alt="VEX">
@@ -38,16 +36,15 @@ I love building infrastructure that removes friction for artists, so they can fo
   <img src="https://img.shields.io/badge/Qt%20%2F%20PySide-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt">
 </p>
 
-### 🎨 DCC & Production Software
+### DCC & Production Software
 <p>
   <img src="https://img.shields.io/badge/SideFX%20Houdini-FF6B00?style=flat-square&logo=sidefx&logoColor=white" alt="Houdini">
   <img src="https://img.shields.io/badge/Autodesk%20Maya-0696D7?style=flat-square&logo=autodesk&logoColor=white" alt="Maya">
   <img src="https://img.shields.io/badge/Foundry%20Nuke-F9B41B?style=flat-square&logo=foundry&logoColor=black" alt="Nuke">
-  <img src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=flat-square&logo=unrealengine&logoColor=white" alt="Unreal Engine">
   <img src="https://img.shields.io/badge/PFTrack-333333?style=flat-square" alt="PFTrack">
 </p>
 
-### ⚡ Pipeline & Architecture
+### Pipeline & Architecture
 <p>
   <img src="https://img.shields.io/badge/OpenUSD%20%2F%20Solaris-00FFFF?style=flat-square&color=088389" alt="OpenUSD">
   <img src="https://img.shields.io/badge/Autodesk%20ShotGrid-111111?style=flat-square&logo=autodesk" alt="ShotGrid">
@@ -58,9 +55,9 @@ I love building infrastructure that removes friction for artists, so they can fo
 
 ---
 
-## 🔭 Featured Open Source Projects
+## Featured Open Source Projects
 
-### 🔌 DCC & Rendering Plug-ins
+### DCC & Rendering Plug-ins
 - **[maya-gaussian-splatting-viewport-plugin](https://github.com/chordee/maya-gaussian-splatting-viewport-plugin)**  
   `Maya` · `C++` · `OpenGL` · `Viewport 2.0`  
   Maya Viewport 2.0 plug-in in C++ and OpenGL for real-time 3D Gaussian Splatting (`.ply`) rendering.
@@ -69,11 +66,7 @@ I love building infrastructure that removes friction for artists, so they can fo
   `Nuke NDK` · `C++` · `OpenCV`  
   Nuke NDK plug-in for lens distortion and undistortion using the OpenCV rational polynomial model (k1–k6, p1, p2) with Nerfstudio JSON support.
 
-### 📐 Procedural, Vision & Tracking
-- **[colmap-camera-tracking](https://github.com/chordee/colmap-camera-tracking)**  
-  `Python` · `COLMAP` · `Houdini` · `NeRF`  
-  Automated camera tracking and 3D reconstruction pipeline using COLMAP, generating Houdini scenes and NeRF-compatible formats (`transforms.json`).
-
+### Procedural & Motion Tools
 - **[gnm-houdini](https://github.com/chordee/gnm-houdini)**  
   `Houdini HDA` · `Python` · `Google GNM`  
   Houdini Digital Asset (HDA) integrating Google's parametric statistical 3D head model (GNM) to generate editable head meshes in SOPs.
@@ -82,7 +75,7 @@ I love building infrastructure that removes friction for artists, so they can fo
   `Houdini` · `Python` · `NVIDIA Kimodo`  
   Pipeline bridge connecting NVIDIA's text-driven motion generation model (Kimodo) directly into SideFX Houdini.
 
-### 🤖 AI Agents & Studio Tooling (MCP)
+### AI Agents & Studio Tooling
 - **[mcp-server-shotgrid](https://github.com/chordee/mcp-server-shotgrid)**  
   `FastMCP` · `Python` · `Autodesk ShotGrid`  
   Model Context Protocol (MCP) server enabling AI coding assistants to interact directly with the Autodesk ShotGrid REST API.
@@ -91,14 +84,12 @@ I love building infrastructure that removes friction for artists, so they can fo
   `Python` · `CLI` · `MCP` · `OpenUSD`  
   Lightweight toolkit and MCP server for inspecting `.bgeo.sc` geometry caches and USD scenes without requiring a local Houdini installation.
 
-- **[mcp-server-openexr](https://github.com/chordee/mcp-server-openexr)**  
-  `OpenEXR` · `Python` · `MCP`  
-  MCP server for querying OpenEXR files — metadata, channels, and pixel statistics.
-
 <details>
-<summary>📚 Guides & More Repositories</summary>
+<summary>Guides & More Repositories</summary>
 <br>
 
+- **[colmap-camera-tracking](https://github.com/chordee/colmap-camera-tracking)** — Automated camera tracking and 3D reconstruction pipeline with Houdini and NeRF-compatible output
+- **[mcp-server-openexr](https://github.com/chordee/mcp-server-openexr)** — MCP server for querying OpenEXR metadata, channels, and pixel statistics
 - **[rez-studio-docs](https://github.com/chordee/rez-studio-docs)** — 影視特效工作室 Rez 套件管理架構與跨平台部署指南（Windows / Linux 混成環境）
 - **[mayaGeoCache](https://github.com/chordee/mayaGeoCache)** — Maya geometry & nParticle cache (.mc/.mcx) I/O in Python with Houdini HDA exporter
 - **[scripts-collection](https://github.com/chordee/scripts-collection)** — Production pipeline scripts for Houdini (Solaris USD) and Maya photogrammetry workflows
@@ -107,15 +98,12 @@ I love building infrastructure that removes friction for artists, so they can fo
 
 ---
 
-## ⚡ Quick Facts
+## Current Focus
 
-- 🎬 **15+ years** in film VFX and pipeline engineering
-- 🧩 **OpenUSD & Solaris** architecture enthusiast
-- 🛠️ Passionate about **developer tooling, MCP (Model Context Protocol)**, and DCC automation
-- 🌱 Currently exploring: **Gaussian Splatting / Neural Rendering** integration in VFX pipelines
+Gaussian Splatting, neural rendering, and AI-assisted DCC workflows.
 
 ---
 
 <p align="center">
-  <sub>Check out full project breakdowns & interactive viewer on my <a href="https://chordee.github.io/">Official Portfolio</a>.</sub>
+  <sub>Explore selected projects and technical work on my <a href="https://chordee.github.io/">portfolio</a>.</sub>
 </p>
