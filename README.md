@@ -57,6 +57,11 @@ My work spans hands-on **Houdini FX** production and pipeline architecture. I ha
 
 ## Featured Open Source Projects
 
+### Pipeline Architecture
+- **[openusd-pipeline-architecture](https://github.com/chordee/openusd-pipeline-architecture)**\
+  `OpenUSD` · `Solaris` · `Python` · `Asset Resolver`\
+  Reference architecture for a production OpenUSD pipeline: 12 design documents on layer stacking and overrides, publish packaging, version pinning, validation, and Solaris implicit-layer governance, with tested Solaris output processors and USD splitting tools. Documentation in Traditional Chinese.
+
 ### DCC & Rendering Plug-ins
 - **[maya-gaussian-splatting-viewport-plugin](https://github.com/chordee/maya-gaussian-splatting-viewport-plugin)**  
   `Maya` · `C++` · `OpenGL` · `Viewport 2.0`  
@@ -76,10 +81,6 @@ My work spans hands-on **Houdini FX** production and pipeline architecture. I ha
   Pipeline bridge connecting NVIDIA's text-driven motion generation model (Kimodo) directly into SideFX Houdini.
 
 ### AI Agents & Studio Tooling
-- **[mcp-server-shotgrid](https://github.com/chordee/mcp-server-shotgrid)**  
-  `FastMCP` · `Python` · `Autodesk ShotGrid`  
-  Model Context Protocol (MCP) server enabling AI coding assistants to interact directly with the Autodesk ShotGrid REST API.
-
 - **[houdini-tools](https://github.com/chordee/houdini-tools)**  
   `Python` · `CLI` · `MCP` · `OpenUSD`  
   Lightweight toolkit and MCP server for inspecting `.bgeo.sc` geometry caches and USD scenes without requiring a local Houdini installation.
@@ -89,6 +90,7 @@ My work spans hands-on **Houdini FX** production and pipeline architecture. I ha
 <br>
 
 - **[colmap-camera-tracking](https://github.com/chordee/colmap-camera-tracking)** — Automated camera tracking and 3D reconstruction pipeline with Houdini and NeRF-compatible output
+- **[mcp-server-shotgrid](https://github.com/chordee/mcp-server-shotgrid)** — Model Context Protocol server for Autodesk ShotGrid REST API integration
 - **[mcp-server-openexr](https://github.com/chordee/mcp-server-openexr)** — MCP server for querying OpenEXR metadata, channels, and pixel statistics
 - **[rez-studio-docs](https://github.com/chordee/rez-studio-docs)** — 影視特效工作室 Rez 套件管理架構與跨平台部署指南（Windows / Linux 混成環境）
 - **[mayaGeoCache](https://github.com/chordee/mayaGeoCache)** — Maya geometry & nParticle cache (.mc/.mcx) I/O in Python with Houdini HDA exporter
