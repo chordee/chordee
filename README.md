@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="assets/banner.webp" alt="Hsin Hua (Chordee) Lin Banner" width="100%">
 </p>
 
@@ -92,7 +92,7 @@ My work spans hands-on **Houdini FX** production and pipeline architecture. I ha
 - **[colmap-camera-tracking](https://github.com/chordee/colmap-camera-tracking)** — Automated camera tracking and 3D reconstruction pipeline with Houdini and NeRF-compatible output
 - **[mcp-server-shotgrid](https://github.com/chordee/mcp-server-shotgrid)** — Model Context Protocol server for Autodesk ShotGrid REST API integration
 - **[mcp-server-openexr](https://github.com/chordee/mcp-server-openexr)** — MCP server for querying OpenEXR metadata, channels, and pixel statistics
-- **[rez-studio-docs](https://github.com/chordee/rez-studio-docs)** — 影視特效工作室 Rez 套件管理架構與跨平台部署指南（Windows / Linux 混成環境）
+- **[rez-studio-docs](https://github.com/chordee/rez-studio-docs)** — Rez package management architecture and cross-platform deployment guide for hybrid Windows/Linux VFX studios
 - **[mayaGeoCache](https://github.com/chordee/mayaGeoCache)** — Maya geometry & nParticle cache (.mc/.mcx) I/O in Python with Houdini HDA exporter
 - **[scripts-collection](https://github.com/chordee/scripts-collection)** — Production pipeline scripts for Houdini (Solaris USD) and Maya photogrammetry workflows
 
