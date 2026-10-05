@@ -2,6 +2,8 @@
   <img src="assets/banner.webp" alt="Hsin Hua (Chordee) Lin Banner" width="100%">
 </p>
 
+[English](README.md) | [日本語](README.ja.md)
+
 # 🎬 Hsin Hua (Chordee) Lin
 
 <p>
@@ -102,7 +104,7 @@ My work spans hands-on **Houdini FX** production and pipeline architecture. I ha
 
 ## Current Focus
 
-Gaussian Splatting, neural rendering, and AI-assisted DCC workflows.
+Exploring Gaussian Splatting and practical AI-assisted tools for DCC workflows.
 
 ---
 
