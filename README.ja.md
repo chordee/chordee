@@ -51,6 +51,7 @@
   <img src="https://img.shields.io/badge/OpenUSD%20%2F%20Solaris-00FFFF?style=flat-square&color=088389" alt="OpenUSD">
   <img src="https://img.shields.io/badge/Autodesk%20ShotGrid-111111?style=flat-square&logo=autodesk" alt="ShotGrid">
   <img src="https://img.shields.io/badge/ASWF%20Rez-000000?style=flat-square" alt="Rez">
+  <img src="https://img.shields.io/badge/Pyblish-333333?style=flat-square" alt="Pyblish">
   <img src="https://img.shields.io/badge/ACES%20%2F%20OCIO-2B5797?style=flat-square" alt="ACES/OCIO">
   <img src="https://img.shields.io/badge/Git%20%2F%20GitHub-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 </p>
