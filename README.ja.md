@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/banner.webp" alt="Hsin Hua (Chordee) Lin Banner" width="100%">
-</p>
-
 [English](README.md) | [日本語](README.ja.md)
 
 # Hsin Hua (Chordee) Lin
